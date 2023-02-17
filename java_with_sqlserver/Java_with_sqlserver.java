@@ -53,38 +53,5 @@ public class Java_with_sqlserver {
 }
 
 
-// örnekkk
-/*
-public class JavaJDBC {
 
-    public static void main(String[] args) {
-
-        String url = "jdbc:mysql://localhost:3306/kisi";
-        String user = "root";
-        String password = "";
-
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-
-            Connection connection = DriverManager.getConnection(url, user, password);
-
-            Statement statement = connection.createStatement();
-
-            String sql = "INSERT INTO "
-                    + "kisiler(kisi_adi, kisi_soyadi, kisi_eposta) "
-                    + "VALUES('Yusuf', 'SEZER', 'yusufsezer@mail.com')";
-
-            System.out.println(statement.executeUpdate(sql) + " kayıt eklendi.");
-
-            statement.close();
-            connection.close();
-
-        } catch (ClassNotFoundException | SQLException ex) {
-            System.err.println(ex);
-        }
-    }
-}
-
-
-*/
 
